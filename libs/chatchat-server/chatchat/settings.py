@@ -467,9 +467,11 @@ class ApiModelSettings(BaseFileSettings):
                 "api_key": "YOUR_API_KEY",
                 "api_concurrencies": 5,
                 "llm_models": [
+                    "MiniMax-M2.7",
+                    "MiniMax-M2.7-highspeed",
+                    "MiniMax-M2.5",
                     "MiniMax-M1",
                     "MiniMax-M1-40k",
-                    "MiniMax-M2.5",
                 ],
                 "embed_models": [
                     "embo-01",
